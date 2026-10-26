@@ -1,0 +1,625 @@
+body{
+    background-image: url('../image_assets/other_pictures_for_site/Gemini_Generated_Image_eg09dreg09dreg09.jpg');
+    background-size: cover;
+}
+
+.the_bar ul { /* Done with the help of Claude, 2026 */
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  text-decoration: none;
+  justify-content: flex-end;   
+}
+
+.the_bar a{
+    text-decoration: none;
+    border: solid;
+    border-color: #ccc;
+    border-radius: 50px;
+    padding: 10px;
+    
+}
+
+.my_logo{
+    max-width:1100px;
+  margin:0 auto;
+  padding:0 20px;
+}
+
+
+.the_bar a:visited{
+    color: rgb(6, 215, 230);
+}
+
+
+.the_bar a:hover {
+    color: #e70c0c;
+    background-color: #ccc;
+}
+
+.my_cart {
+    display: flex;
+    justify-content: right;
+    margin: 20px;
+    
+}
+
+.welcome_message{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #f5f4f3;
+}
+
+.welcome_paragraph{
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #faf9f7;
+}
+
+
+
+/* This css style (line 43 - 68) was done with the help from Claude, 2026 because I wanted a table like style to specific
+stuff on this page and not everything like how the html might make it */
+section > section {
+  max-width: 500px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #333;
+  border-collapse: collapse;
+}
+
+section > section h4 {
+  margin: 0;
+  padding: 8px 12px;
+  background: #333;
+  color: white;
+}
+
+
+section > section ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+section > section li {
+  padding: 8px 12px;
+  border-top: 1px solid #ccc;
+}
+
+.phone_number{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: bisque;
+    
+}
+
+
+.contact_us{
+    display: flex;
+    justify-content: center;
+
+}
+
+.heading_mac{
+   text-align: center;
+   border: solid;
+   background-color: #fefefe;
+   padding: 0;
+   margin: 0;
+   border-width: 3px; 
+   color: #1076c97f;
+}
+
+.sep_head{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    text-decoration: underline;
+}
+
+.macbook{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));/* done with help from Claude, 2026 */
+    gap: 24px;
+    max-width: 1100px;
+    margin: 24px auto;
+    padding: 0 20px;
+    justify-content: center;
+    
+}
+
+.mac_oh{
+    display:flex;
+    flex-direction: column;
+    background-color: azure;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);  /* done with help from Claude, 2026  */
+    padding: 16px;
+
+}
+
+.mac_oh img{ /* done with help from Claude, 2026  */
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display:block;
+}
+
+.mac_info{
+    margin: 12px 0;
+    font-weight: bold;
+}
+
+.mac_button{
+    color: #e70c0c;
+    background-color: #ccc;
+    padding:   12px 20px;
+    border: 0;
+    border-radius: 8px;
+     
+
+}
+
+.index_button{
+    color: #fb0808;
+     padding:   12px 20px;
+     border-radius: 10px;
+}
+
+.index_button:hover{
+    color: #08d4df;
+    transform: -2y;
+    background-color: #e9d35b;
+}
+
+.mac_button:hover{
+    background-color: #0cbfe7;
+}
+
+
+.stuff{
+    text-align: center;
+    border: solid;
+    background-color: aqua;
+    padding: 0;
+    margin: 0;
+    border-width: 3px;
+
+}
+
+.who_is_us{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #0ce764;
+}
+
+.para_who {
+    text-align: center;
+    border: 2px solid black; 
+    border-radius: 30px;
+    background-color: bisque;
+    padding: 15px; 
+    margin: 20px auto;
+}
+
+.our_regions{
+    display: grid;
+    grid-template-columns: repeat(4,1fr); /* done with the help from Gemini, 2026 */
+    border: solid;
+    border-radius: 50px;
+    border-color: #333;
+    padding: 30px 40px;
+    box-sizing: border-box; /* done with the help from Gemini, 2026 */
+    background-color: bisque;
+}
+
+.loacs{
+    display:flex;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.loacs a:hover{
+    color: #e70c0c;
+}
+
+.loacs a:visited{
+    color: #088ac6;
+}
+
+.loacs a{
+    text-decoration: none;
+}
+
+.loacted{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #0ce764;
+}
+
+.map{
+    border: solid;
+    border-radius: 1px;
+    border-color: #333;
+   
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+.contact_us{
+     text-align: center;
+   border: solid;
+   background-color: aqua;
+   padding: 0;
+   margin: 0;
+   border-width: 3px; 
+}
+
+.email_bro{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1c1f24;
+}
+
+.form_checkout{
+    max-width: 500px;   
+    margin: 0px auto;
+    text-align: center;
+    border: solid;
+    border-color: #0c6fe7;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+}
+
+
+
+.by_button:hover{
+    color: #0c84e7;
+}
+
+.wow_pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container_baby{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); /*Gemini, 2026*/
+    gap: 30px;
+}
+
+.edit{
+    width: 150px;
+}
+
+.edit iframe{
+    width: 100%;
+}
+
+.card_phone{
+       background-color: #91c9107f;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 100%;
+    height: 100%;
+  border: 1px solid #e0e0e0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /*Gemini, 2026*/
+  display:flex;
+  justify-content: flex-end;
+  flex-direction: column;
+
+}
+
+
+
+
+
+
+
+.table_items {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.table_items table {
+    width: 80%;
+    border-collapse: collapse; /*done with the help of Gemini,2026*/
+    background-color: rgb(254, 254, 254);
+    border: 3px solid #000;
+    border-radius: 12px;
+    overflow: hidden; /*done with the help of Gemini,2026*/
+}
+
+.table_items th {
+    background-color: #333;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+}
+
+.table_items td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.table_items tfoot td {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+
+.form_checkout form { /*done with the help of Gemini,2026 (the actual form tag by form_checkout)*/
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form_checkout form section { /*done with the help of Gemini,2026 (the actual form section tag by form_checkout)*/
+    display: grid;
+    grid-template-columns: 240px 1fr; /*done with the help of Gemini,2026*/
+    align-items: center;
+    gap: 15px;
+}
+
+.form_checkout label {
+    font-weight: bold;
+    text-align: right;
+}
+
+.form_checkout input { /*done with the help of Gemini,2026 (the actual input tag by form_checkout)*/
+    padding: 8px 12px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box; /*done with the help of Gemini,2026*/
+}
+
+.by_button {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 25px;
+    background-color: #e0e0e0;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.1s ease, background-color 0.2s; /*done with the help of Gemini,2026*/
+}
+
+.by_button:hover {
+    background-color: #fefefe;
+    transform: translateY(-5px); /*done with the help of Gemini,2026*/
+}
+
+.card_index{
+    background-color: #1076c97f;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  border: 1px solid #e0e0e0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease
+}
+
+.card_index:hover{
+    color: #088ac6;
+    transform: translateY(-6px);
+}
+
+.cards_conatiner{
+
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+.first_loacs{
+    color: #e0e0e0;
+    text-decoration: underline;
+}
+
+.container_about{
+     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 45px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px 0 30px;
+
+}
+
+.text_color{
+    color: #34e70c;
+}
+
+#foot{
+    color: #00fff0;
+    display: flex;
+    height: 55px;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+
+
+
+/* Media quaries */
+/* phone */
+@media  (max-width: 600px) {
+    main > img { /* this tag was taken from Claude, 2026 */
+        max-width: 100%;
+        height:auto;
+    }
+
+    iframe{
+        max-width: 100%;
+    }
+
+    .macbook{
+        grid-template-columns: repeat(2, 1fr); /* this was done with help from Claude, 2026 */
+    }
+
+    .our_regions{
+        padding: 24px 28px;
+        border-radius: 36px;
+    }
+
+    .sep_head{
+        padding: 20px;
+    }
+
+    .table_items{
+        overflow-x: auto; /* this tag was taken from Claude, 2026 */
+    }
+
+}
+
+/* Time for mobile quaries */
+/* tablet */
+@media (max-width: 768px) {
+    .the_bar ul{
+        flex-wrap: wrap; /* this was done with help from Claude, 2026 */
+        justify-content: center;
+        gap: 4px 8px;
+    }
+
+    .the_bar a{
+        display:block; /* this was done with help from Claude, 2026 */
+        padding: 10px 12px;
+    }
+
+    .my_cart{
+        justify-content: center;
+    }
+
+    h1 {
+    font-size: 1.6rem;  /* this was done with help from Claude, 2026 */
+  }
+
+  h2 {
+    font-size: 1.3rem; /* this was done with help from Claude, 2026 */
+  }
+
+  .sep_head{
+    padding: 16px;
+    text-align: center;
+  }
+
+  .welcome_message{
+    padding: 0 12px;
+    text-align: center;
+  }
+
+  .macbook{
+    grid-template-columns: 1fr; /* this was done with help from Claude, 2026 */
+    gap: 16px;
+    padding: 0 12px;
+
+  }
+
+   .mac_oh {
+    padding: 12px;
+    border-radius: 16px;
+  }
+
+  .mac_button {
+    height: 44px;
+  }
+
+  .our_regions {
+    grid-template-columns: 1fr; /* this was done with help from Claude, 2026 */
+    padding: 20px;
+    border-radius: 24px;
+  }
+
+  .para_who {
+    padding: 12px;
+    border-radius: 20px;
+  }
+
+  section > section { /* this tag was taken from Claude, 2026 */
+    max-width: 100%;
+  }
+
+  iframe {
+    height: 300px;
+  }
+
+  .phone_number {
+    flex-direction: column;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .table_items {
+    justify-content: flex-start; /* this was done with help from Claude, 2026 */
+    margin: 16px 12px;
+  }
+
+  .table_items table {
+    font-size: 0.9rem; /* this was done with help from Claude, 2026 */
+
+  .form_checkout {
+    box-sizing: border-box; /* this was done with help from Claude, 2026 */
+    width: calc(100% - 24px); /* this was done with help from Claude, 2026 */
+    padding: 12px;
+  }
+
+  .form_checkout input { /* this tag was taken from Claude, 2026 */
+    max-width: 100%;
+  }
+
+  .by_button {
+    min-height: 44px;
+  }
+
+  .cards_conatiner {
+        grid-template-columns: repeat(2, 1fr);
+        width: 85%;/
+  }
+        margin: 10px auto;
+        gap: 10px;
+  }
+
+   
+    .card_index {
+        width: 100% ;
+        min-width: 0 ;
+        max-width: 100% ;
+        box-sizing: border-box;
+    }
+
+    .card_index h3 {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .card_index h3 nav {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    
+}
